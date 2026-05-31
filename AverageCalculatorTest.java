@@ -14,20 +14,20 @@ public class AverageCalculatorTest {
     @Test
     public void testBasicAverage() {
         int[] nums = {10, 20, 30};
-        assertEquals(20.0, calc.calulateAverage(nums), 0.001);
+        assertEquals(20.0, calc.calculateAverage(nums), 0.001);
     }
 
     // Test that a single-element array returns that element as the average
     @Test
     public void testSingleNumber() {
         int[] nums = {42};
-        assertEquals(42.0, calc.calulateAverage(nums), 0.001);
+        assertEquals(42.0, calc.calculateAverage(nums), 0.001);
     }
 
     // Test average of a larger 5-number array
     @Test
     public void testLargerSet() {
         int[] nums = {10, 20, 30, 40, 50};
-        assertEquals(30.o, calc.calculateAverage(nums), 0.001);
+        assertEquals(30.0, calc.calculateAverage(nums), 0.001);
     }
 }
